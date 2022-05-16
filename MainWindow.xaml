@@ -1,0 +1,19 @@
+﻿<Window x:Class="_3._6WrapPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3._6WrapPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <WrapPanel>
+        <!--При уменьшении окна кнопки переносятся на сл строку-->
+        <Button Background="AliceBlue" Content="Вертикальная WrapPanel" Click="Button_Click"/>
+        <Button Background="Blue" Content="Равновеликие кнопки" Click="Button_Click_1" />
+        <Button Background="Aquamarine" Content="Кнопка 3" Height="30"/>
+        <Button Background="DarkGreen" Content="Кнопка 4" Height="20"/>
+        <Button Background="LightGreen" Content="Кнопка 5"/>
+        <Button Background="RosyBrown" Content="Кнопка 6" Width="80" />
+        <Button Background="GhostWhite" Content="Кнопка 7" />
+    </WrapPanel>
+</Window>
